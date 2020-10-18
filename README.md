@@ -1,4 +1,4 @@
-![All about My Portfolio](images/portfolioMedterm.png "Portfolio Home Page Mockup")
+![All about My Portfolio](images/portfolioMidterm.png "Portfolio Home Page Mockup")
 
 # FIP Portfolio
 
