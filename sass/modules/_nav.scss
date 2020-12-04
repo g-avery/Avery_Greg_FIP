@@ -1,0 +1,60 @@
+.mainHeader {  
+	display: flex;
+	flex-direction: column;
+	font-size: 26px;
+    font-family: "Earth Orbiter", sans-serif;
+    height: 100%;
+}
+
+.logoHeader {
+    width: 170px;
+    z-index: 1;
+    align-self: center;
+    padding: 20px 0px 0px 10px;
+}
+
+
+
+.mainNav {
+  height: 100%;
+  width: 190px;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: linear-gradient(90deg, rgba(255,66,0,1) 0%, rgba(255,144,1,1) 100%); 
+  box-shadow: 10px 0px 20px #696969;
+}
+
+.mainNav ul li {   
+	font-size: 24px;
+	display: inline;
+	cursor: pointer;
+    align-self: center;
+}
+
+.mainNav ul li a {  
+	color: black;
+	text-decoration: none;
+}
+
+.mainNav ul li a:hover {
+	color:  #00b799;
+	font-weight: bold;
+	-webkit-transition: all .3s ease-in;
+	-o-transition: all .3s ease-in;
+	-moz-transition: all .3s ease-in;
+	transition: all .3s ease-in;
+}
+
+
+
+
+
+.vl {
+    width: 4px;
+    height: 100%;
+    margin: 0px 0px 0px 186px;
+    background-color: black;
+    position: absolute;
+}
+

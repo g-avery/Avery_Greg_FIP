@@ -1,0 +1,64 @@
+.galleryNav {
+    display: inline;
+	justify-content: center;
+    font-family: "Earth Orbiter", sans-serif;
+    align-self: center;
+	width: 600px;
+}
+
+.galleryNav ul li {   
+	font-size: 28px;
+	display: inline;
+	cursor: pointer;
+	flex-direction: row;
+	justify-content: space-evenly;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.galleryNav ul li a {  
+	color: black;
+    text-decoration: none;
+    font-family: "Earth Orbiter Title";
+}
+
+.galleryNav ul li a:hover {
+	color: #00b799;
+	font-weight: bold;
+}
+
+
+
+.galleryNav a.active {
+    color:  #00b799;
+}
+
+
+.titleDesc {
+    width: 40%;
+    margin-right: 10%; 
+}
+
+.galleryPrjct {
+    display: flex;
+    flex-direction: row;
+    margin-top: 40px
+}
+
+
+
+.galleryDivLines {
+    width: 4px;
+    height: 125px;
+    background-color: black;
+    margin-top: 32px;
+}
+
+
+
+.prjctImgallery {
+    width: 400px;
+    height: 200px;
+    background-color: black;
+    margin-left: 100px;
+}
