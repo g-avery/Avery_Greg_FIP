@@ -1,0 +1,23 @@
+.mainPage {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 0px 0px 0px 0px;
+}
+
+.textArea {
+    width: 40%;
+    margin: 0px 10px 0px 10px;
+}
+
+.profileImg {margin: 10px 0px 0px 100px;}
+.profilePic {box-shadow: 0px 0px 15px #272727;}
+
+.ProgramLists {
+    display: flex;
+    flex-direction: row;
+}
+
+.otherList {margin-left: 90px;}
+
+.programs {margin-top: 60px;}

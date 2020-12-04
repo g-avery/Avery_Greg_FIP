@@ -1,5 +1,45 @@
-.body {
-    background-color: #4b4b4b;
-    height: 1080p;
-    width: 1920p;
+@font-face {font-family: "Earth Orbiter"; src: url("assets/fonts/earth_orbiter/earthorbiter.ttf");}
+@font-face {font-family: "Earth Orbiter Extra Bold"; src: url("assets/fonts/earth_orbiter/earthorbiterxtrabold.ttf");}
+@font-face {font-family: "Earth Orbiter Title"; src: url("assets/fonts/earth_orbiter/earthorbitertitle.ttf");}
+
+.hidden {display: none;}
+
+#siteContainer {
+    width: 80%;  
+    align-self: center;
+    display: flex;
+    justify-content: center;
+    top: 0;
+    margin-left: 170px
 }
+
+
+
+
+.mainHeader {
+    flex-direction: left;
+}
+
+
+.body {
+    background-color:grey;
+    display: flex;
+	flex-direction: column;
+}
+
+
+h1 {
+    font-size: 30px;
+    color: #00b799;
+    font-family: "Earth Orbiter Title", Arial, sans-serif;
+}
+
+h2 {font-family: "Earth Orbiter", Arial, sans-serif; margin: 10px 0px 0px 0px;}
+
+h3 {
+    font-family: "Earth Orbiter", Arial, sans-serif;
+    font-size: 20px;
+    margin: 0px 0px 0px 0px;
+}
+
+p {font-family: "Earth Orbiter", Arial, sans-serif; font-size: 18px;}
