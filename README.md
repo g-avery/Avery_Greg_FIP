@@ -3,7 +3,8 @@
 # FIP Portfolio
 
 ### Overview
-This is my portfolio website. Inside it, you can find various projects that I have worked on within the IDP course at Fanshawe. These projects are focussed on motion design, product design, and developing. Along with the home and gallery pages, there is also an about page which has information about my interests and skills. 
+This is my portfolio website. Inside it, you can find various projects that I have worked on within the IDP course at Fanshawe. These projects are focused on motion design, product design, and development. Along with the home, gallery and contact pages, there is also an about page that has information about my interests and skills.
+
 
 ### Getting Started
 This is an HTML / SASS / js / AJAX build.

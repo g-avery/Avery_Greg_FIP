@@ -33,16 +33,15 @@
 }
 
 .prjct {
+    display: flex;
+    flex-direction: column;
     width: 400px;
     height: 400px;
-    background-color: orange;
     margin-right: 300px;
 }
 
-
-
 .homePrdctImg {
-    width: 100px;
-    height: 200px;
-    background-color: black;
+    width: 380px;
+    height: 300px;
+    background-color: blue;
 }
