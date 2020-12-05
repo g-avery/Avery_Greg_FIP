@@ -3,7 +3,6 @@
 	justify-content: center;
     font-family: "Earth Orbiter", sans-serif;
     align-self: center;
-	width: 600px;
 }
 
 .galleryNav ul li {   
@@ -12,8 +11,8 @@
 	cursor: pointer;
 	flex-direction: row;
 	justify-content: space-evenly;
-    margin-left: 20px;
-    margin-right: 20px;
+    margin-left: 2%;
+    margin-right: 2%;
 }
 
 .galleryNav ul li a {  
@@ -27,12 +26,9 @@
 	font-weight: bold;
 }
 
-
-
 .galleryNav a.active {
     color:  #00b799;
 }
-
 
 .titleDesc {
     width: 40%;
@@ -44,8 +40,6 @@
     flex-direction: row;
     margin-top: 40px
 }
-
-
 
 .galleryDivLines {
     width: 4px;
@@ -61,4 +55,17 @@
     height: 200px;
     background-color: black;
     margin-left: 100px;
+}
+
+.demoReel {
+    width: 640px;
+    height: 360px;    
+    display: flex;
+    justify-content: center; 
+    margin: 10px 0px 60px 14%;
+}
+
+.galleryContent {
+    align-content: center;
+    margin-left: 12%;
 }
