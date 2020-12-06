@@ -21,3 +21,22 @@
 .otherList {margin-left: 90px;}
 
 .programs {margin-top: 60px;}
+
+
+
+
+@media screen and (max-width: 642px) {
+
+    .mainPage {
+        display: flex;
+        flex-direction: column;
+        margin-left: 11%;
+    }
+
+    .textArea {
+        width: 80%;
+        margin: 0px 10px 0px 0px;
+    }
+   
+    .profileImg {margin: 10px 100px 0px 0px;}
+}

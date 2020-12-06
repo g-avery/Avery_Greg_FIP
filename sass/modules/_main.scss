@@ -13,9 +13,6 @@
     margin-left: 170px;
 }
 
-
-
-
 .mainHeader {
     flex-direction: left;
 }
@@ -43,4 +40,14 @@ h3 {
     margin: 0px 0px 0px 0px;
 }
 
-p {font-family: "Earth Orbiter", Arial, sans-serif; font-size: 18px;}
+p {font-family: "Earth Orbiter", Arial, sans-serif; 
+    font-size: 18px;
+}
+
+
+@media screen and (max-width: 642px) {
+
+    #siteContainer {
+        margin-left: 40px;
+    }
+}
