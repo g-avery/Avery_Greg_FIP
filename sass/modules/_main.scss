@@ -10,7 +10,7 @@
     display: flex;
     justify-content: center;
     top: 0;
-    margin-left: 170px
+    margin-left: 170px;
 }
 
 
@@ -22,9 +22,10 @@
 
 
 .body {
-    background-color:grey;
+    background-color:#808080;
     display: flex;
-	flex-direction: column;
+    flex-direction: column;
+    padding: 0;
 }
 
 

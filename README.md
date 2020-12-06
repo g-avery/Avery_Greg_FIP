@@ -1,4 +1,4 @@
-![All about My Portfolio](images/portfolioMidterm.png "Portfolio Home Page Mockup")
+![All about My Portfolio](images/portfolioFIP.jpg "Portfolio Home Page Mockup")
 
 # FIP Portfolio
 
@@ -9,9 +9,8 @@ This is my portfolio website. Inside it, you can find various projects that I ha
 ### Getting Started
 This is an HTML / SASS / JS / PHP build.
 
-To view the page, got to gregavery.com or clone this to the location of your choice, and open the "index.html" file to start at the home page.
+To view the page, got to gregavery.com or clone this to the location of your choice, and open the "index.html" file to start at the home page. You can also view the source code by opening it in any code editing program of your choice, or clicking inspect in a chrome tab. The roadmap document and database file can both be found within the "assets" folder. 
 
-You can also view the source code by opening it in any code editing program of your choice, or clicking inspect in a chrome tab.
 
 ### Prerequisites
 All you need to run this page is an up to date browser.

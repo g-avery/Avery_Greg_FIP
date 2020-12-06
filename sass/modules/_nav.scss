@@ -1,13 +1,12 @@
 .mainHeader {  
 	display: flex;
 	flex-direction: column;
-	font-size: 26px;
     font-family: "Earth Orbiter", sans-serif;
     height: 100%;
 }
 
 .logoHeader {
-    width: 170px;
+    width: 90%;
     z-index: 1;
     align-self: center;
     padding: 20px 0px 0px 10px;
@@ -17,7 +16,7 @@
 
 .mainNav {
   height: 100%;
-  width: 190px;
+  width: 10%;
   position: fixed;
   top: 0;
   left: 0;
@@ -25,11 +24,16 @@
   box-shadow: 10px 0px 20px #696969;
 }
 
+..mainNav ul {
+    padding: 0 !important;
+}
+
 .mainNav ul li {   
-	font-size: 24px;
+	font-size: 1.5vw;
 	display: inline;
 	cursor: pointer;
     align-self: center;
+    padding: 0;
 }
 
 .mainNav ul li a {  
@@ -53,7 +57,7 @@
 .vl {
     width: 4px;
     height: 100%;
-    margin: 0px 0px 0px 186px;
+    margin: 0px 0px 0px 100%;
     background-color: black;
     position: absolute;
 }
