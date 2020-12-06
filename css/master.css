@@ -3,6 +3,7 @@
   height: 400px;
   width: 1300px;
   margin: 0px 0px 0px 0px;
+  box-shadow: 0px 0px 15px #272727;
 }
 
 .ftrdPrjctDivLine {
@@ -68,6 +69,7 @@
   width: 380px;
   height: 300px;
   background-color: blue;
+  box-shadow: 0px 0px 15px #272727;
 }
 
 .galleryNav {
@@ -139,6 +141,7 @@
   height: 225px;
   background-color: black;
   margin-left: 100px;
+  box-shadow: 0px 0px 15px #272727;
 }
 
 .demoReel {
@@ -307,13 +310,12 @@ textarea {
   -webkit-box-direction: normal;
       -ms-flex-direction: column;
           flex-direction: column;
-  font-size: 26px;
   font-family: "Earth Orbiter", sans-serif;
   height: 100%;
 }
 
 .logoHeader {
-  width: 170px;
+  width: 90%;
   z-index: 1;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
@@ -323,7 +325,7 @@ textarea {
 
 .mainNav {
   height: 100%;
-  width: 190px;
+  width: 10%;
   position: fixed;
   top: 0;
   left: 0;
@@ -334,12 +336,13 @@ textarea {
 }
 
 .mainNav ul li {
-  font-size: 24px;
+  font-size: 1.5vw;
   display: inline;
   cursor: pointer;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
+  padding: 0;
 }
 
 .mainNav ul li a {
@@ -357,7 +360,7 @@ textarea {
 .vl {
   width: 4px;
   height: 100%;
-  margin: 0px 0px 0px 186px;
+  margin: 0px 0px 0px 100%;
   background-color: black;
   position: absolute;
 }
