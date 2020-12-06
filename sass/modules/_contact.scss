@@ -71,3 +71,28 @@ textarea { resize: none; display: block; }
     border: 2.5px solid black;
 }
 
+
+
+@media screen and (max-width: 642px) {
+
+    .contentSection {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .contactTxt {width: 80%;}
+
+    .aboutDivLine {
+        width: 80%;
+        height: 4px;
+        margin: 0 0px 0px 0px;
+        background-color: black;
+    }
+
+    #mail-form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 10%;
+    }
+}

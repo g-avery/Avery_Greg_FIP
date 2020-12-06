@@ -48,8 +48,6 @@
     margin-top: 52px;
 }
 
-
-
 .prjctImgallery {
     width: 400px;
     height: 225px;
@@ -64,10 +62,57 @@
     display: flex;
     justify-content: center; 
     margin: 10px 0px 60px 14%;
-    box-shadow: 0px 0px 15px #272727;
 }
 
 .galleryContent {
     align-content: center;
     margin-left: 12%;
+}
+
+
+
+
+@media screen and (max-width: 642px) {
+
+    .galleryContent {
+        align-content: center;
+        margin-left: 2%;
+    }
+
+    .galleryNav {
+        flex-direction: column;
+    }
+
+    .galleryPrjct {
+        display: flex;
+        flex-direction: column;
+        margin-top: 80px;
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    .prjctImgallery {
+        width: 300px;
+        height: 175px;
+        background-color: black;
+        margin-left: 0px;
+        margin-top: 6%;
+        display: flex;
+    justify-content: center; 
+    }
+
+
+    .galleryDivLines {
+        width: 125px;
+        height: 4px;
+        background-color: black;
+        margin: 2px 0px 0px 0px;
+    }
+   
+    .demoReel {
+        width: 380px; 
+        display: flex;
+        justify-content: center; 
+        margin: 10px 0px 0px 0%;
+    }
 }
