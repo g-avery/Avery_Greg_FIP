@@ -40,15 +40,26 @@
 				<nav class="galleryNav">
 					<h2 class="hidden">Gallery Nav</h2>
 					<ul>
-						<li><a href="#">Motion Design</a></li>  
-						<li><a href="#">Product Design</a></li>
-						<li><a href="#">Development</a></li>
+						<li><a @click="clickMotionDsn">Motion Design</a></li>  
+						<!-- <li><a @click="clickMotionDsn">{{ topic1 }}</a></li> -->
+						<li><a @click="clickPrdctDsn">Product Design</a></li>
+						<!-- <li><a @click="clickPrdctDsn">{{ topic2 }}</a></li> -->
+						<li><a @click="clickDvlpmnt">Development</a></li>
+						<!-- <li><a @click="clickDvlpmnt">{{ topic3 }}</a></li> -->
 					</ul>
 				</nav>
 
 				<section class="galleryPrjct">
 					<section class="titleDesc">
-						<h2>Title 1</h2>
+						<h2 class="user-title">Title 1</h2>
+						<p class="user-description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate nec sapien vitae tempor. Nunc ut laoreet risus, non semper felis. Integer posuere ullamcorper sapien ac convallis. Pellentesque varius molestie tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
+					</section>
+					<div class="galleryDivLines"></div>
+					<img src="images/projectImg.jpg" alt="Project Image" class="prjctImgallery">
+				</section>
+				<section class="galleryPrjct">
+					<section class="titleDesc">
+						<h2 class="user-title">Title 2</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate nec sapien vitae tempor. Nunc ut laoreet risus, non semper felis. Integer posuere ullamcorper sapien ac convallis. Pellentesque varius molestie tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 					</section>
 					<div class="galleryDivLines"></div>
@@ -56,7 +67,7 @@
 				</section>
 				<section class="galleryPrjct">
 					<section class="titleDesc">
-						<h2>Title 2</h2>
+						<h2 class="user-title">Title 3</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate nec sapien vitae tempor. Nunc ut laoreet risus, non semper felis. Integer posuere ullamcorper sapien ac convallis. Pellentesque varius molestie tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 					</section>
 					<div class="galleryDivLines"></div>
@@ -64,15 +75,7 @@
 				</section>
 				<section class="galleryPrjct">
 					<section class="titleDesc">
-						<h2>Title 3</h2>
-						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate nec sapien vitae tempor. Nunc ut laoreet risus, non semper felis. Integer posuere ullamcorper sapien ac convallis. Pellentesque varius molestie tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
-					</section>
-					<div class="galleryDivLines"></div>
-					<img src="images/projectImg.jpg" alt="Project Image" class="prjctImgallery">
-				</section>
-				<section class="galleryPrjct">
-					<section class="titleDesc">
-						<h2>Title 4</h2>
+						<h2 class="user-title">Title 4</h2>
 						<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut vulputate nec sapien vitae tempor. Nunc ut laoreet risus, non semper felis. Integer posuere ullamcorper sapien ac convallis. Pellentesque varius molestie tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus.</p>
 					</section>
 					<div class="galleryDivLines"></div>
@@ -105,5 +108,7 @@
 		</main>
 	</div>
 <script src="js/main.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/vue@2/dist/vue.js"></script>
+<script src="https://www.google.com/recaptcha/api.js"></script>
 </body>
 </html>

@@ -7,7 +7,7 @@ This is my portfolio website. Inside it, you can find various projects that I ha
 
 
 ### Getting Started
-This is an HTML / SASS / js / AJAX build.
+This is an HTML / SASS / JS / PHP build.
 
 To view the page, got to gregavery.com or clone this to the location of your choice, and open the "index.html" file to start at the home page.
 

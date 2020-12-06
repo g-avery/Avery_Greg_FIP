@@ -124,19 +124,19 @@
   -webkit-box-direction: normal;
       -ms-flex-direction: row;
           flex-direction: row;
-  margin-top: 40px;
+  margin-top: 80px;
 }
 
 .galleryDivLines {
   width: 4px;
   height: 125px;
   background-color: black;
-  margin-top: 32px;
+  margin-top: 52px;
 }
 
 .prjctImgallery {
   width: 400px;
-  height: 200px;
+  height: 225px;
   background-color: black;
   margin-left: 100px;
 }
@@ -226,7 +226,7 @@
 .aboutDivLine {
   width: 4px;
   height: 500px;
-  margin: 4% 100px 0px 100px;
+  margin: 2% 100px 0px 100px;
   background-color: black;
 }
 
